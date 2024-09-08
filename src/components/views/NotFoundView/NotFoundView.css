@@ -1,0 +1,24 @@
+.container-not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 95%;
+  max-height: max-content;
+  background-color: #fbfbfb;
+}
+
+.not-found-number {
+  font-size: 120px;
+  line-height: 1;
+}
+
+.container-not-found h2 {
+  font-size: 30px;
+  line-height: 0.6;
+}
+
+.container-not-found p {
+  font-size: 20px;
+  line-height: 0.6;
+}

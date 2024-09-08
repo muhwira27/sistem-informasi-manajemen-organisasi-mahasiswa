@@ -1,0 +1,80 @@
+.event {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  box-shadow: none;
+  border: 3px #d3c4c4 solid;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  min-width: 100%;
+}
+
+.event .header-event {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.event .header-event .actions-btn-event {
+  display: flex;
+  gap: 16px;
+  font-size: 26px;
+}
+
+.edit-event {
+  color: #2ac86b;
+  cursor: pointer;
+}
+
+.delete-event {
+  color: #e90000;
+  cursor: pointer;
+}
+
+.event .title-event {
+  font-size: 21px;
+}
+
+.event ion-card-content {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+}
+
+.event ion-list {
+  padding: 0;
+}
+
+.event ion-list ion-item ion-icon {
+  font-size: 16px;
+  color: #000;
+  margin-right: 8px;
+  padding-bottom: 2px;
+}
+
+.event ion-list ion-item ion-label {
+  font-size: 14px;
+}
+
+.date-event {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2px;
+}
+
+.item-event {
+  height: fit-content;
+}
+
+.item-event-label {
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+@media (min-width: 600px) {
+  .item-event {
+    height: 34px;
+  }
+}

@@ -1,0 +1,14 @@
+ion-footer {
+  position: static;
+  margin: 0;
+}
+
+ion-footer ion-toolbar {
+  --background: #770000;
+}
+
+ion-footer ion-title {
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+}

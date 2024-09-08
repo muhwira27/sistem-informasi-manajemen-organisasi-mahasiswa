@@ -1,0 +1,9 @@
+ion-card.my-organization {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  padding: 0 16px 16px 16px;
+  min-height: 100vh;
+  max-height: fit-content;
+}

@@ -1,0 +1,80 @@
+.news-form {
+  --min-width: 50vw;
+  --height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .news-form {
+    --height: 100vh;
+  }
+}
+
+.news-form-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 24px 0 24px;
+}
+
+.news-form-title {
+  font-size: 3vh;
+  font-weight: 600;
+}
+
+.news-form-close {
+  font-size: 3vh;
+  cursor: pointer;
+}
+
+.news-form-content {
+  --background: #fff;
+  --padding-top: 30px;
+  --padding-start: 40px;
+  --padding-end: 40px;
+  --padding-bottom: 0;
+}
+
+.news-form-input {
+  margin-bottom: 20px;
+}
+
+.news-logo-input {
+  margin-bottom: 12px;
+}
+
+.news-form-submit {
+  min-width: fit-content;
+  width: 20vw;
+  margin-bottom: 5vh;
+  align-self: center;
+  text-transform: none;
+}
+
+.upload-logo-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.upload-image-text {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.news-image-input {
+  font-size: 13px;
+}
+
+.news-logo-preview {
+  margin-top: 16px;
+  margin-left: 8px;
+  width: 160px;
+}
+
+.news-logo-preview-text {
+  font-size: 14px;
+  margin-left: 8px;
+}

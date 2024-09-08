@@ -1,0 +1,26 @@
+.members-segment {
+  padding: 20px 20px 10px 30px;
+  width: 100%;
+  height: auto;
+}
+
+.add-member {
+  --border-radius: 6px;
+  width: max-content;
+  min-height: 28px !important;
+  text-transform: none;
+  margin-left: 16px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 500px) {
+  .add-member-text {
+    display: block !important;
+  }
+}
+
+.add-member-text {
+  display: none;
+  box-shadow: none !important;
+}

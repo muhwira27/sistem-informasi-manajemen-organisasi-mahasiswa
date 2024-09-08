@@ -1,0 +1,60 @@
+ion-card.organization-list {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  min-height: 90vh;
+  max-height: fit-content;
+  padding: 0;
+}
+
+.organization-list-header {
+  margin-left: 16px;
+}
+
+.line {
+  background-color: #e0e0e0;
+  height: 2px;
+  width: 100%;
+  align-self: center;
+  margin: 25px 0 15px 0;
+}
+
+.organization-list-description {
+  color: #333333;
+}
+
+ion-card-title.organizaton-list-title {
+  font-size: xx-large;
+  color: #000;
+  font-weight: 600;
+  text-transform: none;
+}
+
+ion-searchbar.organization-list-search {
+  --background: #ebebeb;
+  --color: #828286;
+  --placeholder-color: #828286;
+  --icon-color: #828286;
+  --clear-button-color: #828286;
+  --border-radius: 13px;
+  --box-shadow: none;
+
+  width: 30vw;
+  min-width: 300px;
+  margin-left: 16px;
+  margin-bottom: 16px;
+}
+
+@media only screen and (min-width: 600px) {
+  .container-organization-card {
+    justify-content: start !important;
+  }
+}
+
+.container-organization-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px 30px;
+  justify-content: space-evenly;
+  padding: 24px 36px 24px 36px;
+}

@@ -1,0 +1,17 @@
+.container-content {
+  min-height: 100%;
+  max-height: max-content;
+}
+
+.organization-segment-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0 16px;
+  margin: 10px;
+  min-height: 100vh;
+  max-height: fit-content;
+}

@@ -1,0 +1,77 @@
+ion-header ion-toolbar {
+  position: relative;
+  --background: #770000;
+}
+
+ion-header ion-title {
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+ion-header ion-toolbar ion-card {
+  --background: transparant;
+  box-shadow: none;
+}
+
+ion-header ion-toolbar ion-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+  gap: 10px;
+  cursor: pointer;
+}
+
+ion-header ion-toolbar ion-card ion-card-title.username {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .username {
+    display: block !important;
+  }
+}
+
+ion-header ion-toolbar ion-card ion-avatar {
+  width: 25px;
+  height: 25px;
+}
+
+ion-menu-button {
+  color: #fff;
+}
+
+ion-header ion-card.submenu {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  position: absolute;
+  top: 48px;
+  right: 28px;
+}
+
+ion-header ion-card.submenu ion-item ion-icon {
+  font-size: 22px;
+  color: #000;
+  margin-right: 16px;
+  padding-left: 10px;
+}
+
+ion-header ion-card.submenu ion-item ion-label h2 {
+  padding-right: 10px;
+  font-weight: 500;
+}
+
+.logout {
+  cursor: pointer;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+}

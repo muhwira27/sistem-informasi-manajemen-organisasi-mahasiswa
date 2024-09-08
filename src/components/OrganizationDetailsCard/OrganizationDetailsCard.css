@@ -1,0 +1,153 @@
+.organization-details {
+  display: flex;
+  flex-direction: column;
+  max-height: fit-content;
+}
+
+.organization-details ion-breadcrumbs ion-breadcrumb {
+  font-size: 16px;
+}
+
+.organization-details .line {
+  background-color: #cccccc;
+  height: 1px;
+  width: 98%;
+  align-self: center;
+  margin-top: 5px;
+}
+
+.org-detail-img {
+  width: 40vw;
+  height: 28vh;
+  align-self: center;
+  margin-bottom: 5px;
+}
+
+.organization-details-content .title-section {
+  color: #000;
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.organization-details-content .content-section {
+  color: #000;
+  font-weight: 400;
+  line-height: 1.6;
+  white-space: pre-line;
+}
+
+.organization-details-content ion-icon {
+  font-size: 18px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+/* Subdetail CSS */
+.orgaization-subdetail {
+  background-color: #f4f5f8;
+  margin-top: 20px;
+  padding-top: 0px;
+  border-radius: 13px;
+}
+
+.organization-subdetail-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: #000;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.organization-subdetail-header ion-breadcrumb ion-icon {
+  margin-left: 7px;
+}
+
+.orgaization-subdetail .line {
+  margin-top: 0px;
+}
+
+/* Achievements */
+.organization-subdetail-achievements {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 20px;
+  gap: 30px;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.subdetail-achievement-card {
+  display: flex;
+  flex-flow: column;
+  justify-content: start;
+  height: 260px;
+  width: 220px;
+  margin: 0 15px;
+  box-shadow: none;
+  padding: 20px 16px;
+}
+
+.subdetail-achievement-img {
+  height: 75%;
+  width: 100%;
+}
+
+.subdetail-achievement-title {
+  color: #000;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+/* Gallery */
+.organization-subdetail-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.organization-subdetail-gallery .gallery-card {
+  height: 200px;
+  width: 31vh;
+  margin-top: 16px;
+  box-shadow: none;
+}
+
+.org-sub-gallery {
+  object-fit: cover;
+}
+
+.organization-details-skeleton {
+  height: 100vh;
+  max-height: max-content;
+}
+
+.skeleton-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.skeleton-text {
+  margin-bottom: 20px;
+}
+
+.skeleton-gallery {
+  height: 100px;
+  margin-top: 20px;
+}
+
+.breadcrumbs-skeleton {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 20px;
+}

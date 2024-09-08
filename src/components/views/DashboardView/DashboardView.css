@@ -1,0 +1,18 @@
+.graphic {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  margin-top: 20px;
+  padding: 50px 40px;
+}
+
+@media (min-width: 768px) {
+  .graphic {
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+}

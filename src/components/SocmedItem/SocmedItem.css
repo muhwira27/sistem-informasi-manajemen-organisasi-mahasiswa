@@ -1,0 +1,15 @@
+.container-socmed-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 4px 0;
+}
+
+.socmed-item-icon {
+  height: 20px;
+}
+
+.socmed-item-text {
+  color: #000;
+  font-weight: 400;
+}

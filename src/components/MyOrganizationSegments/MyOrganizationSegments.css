@@ -1,0 +1,58 @@
+ion-segment.my-organization-segment {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+ion-segment.my-organization-segment ion-segment-button {
+  font-size: 16px;
+  text-transform: none;
+}
+
+ion-segment.my-organization-segment
+  ion-segment-button::part(indicator-background) {
+  background: transparent;
+}
+
+ion-segment.my-organization-segment ion-segment-button.md::part(native) {
+  color: #000;
+}
+
+ion-segment.my-organization-segment .segment-button-checked.md::part(native) {
+  color: #ff4d4d;
+}
+
+.segment-line {
+  background-color: #e0e0e0;
+  height: 2px !important;
+  width: 100%;
+  align-self: center;
+  margin-left: 20px;
+}
+
+.org-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.org-logo {
+  width: 60px;
+  height: 60px;
+}
+
+.org-name {
+  font-size: 20px;
+}
+
+@media (min-width: 500px) {
+  .org-logo {
+    width: 70px;
+    height: 70px;
+  }
+
+  .org-name {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,53 @@
+ion-card.organization {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-height: 70vh;
+  margin: 0 0 16px 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 240px;
+  height: 325px;
+  background: #132b50;
+}
+
+ion-card.organization .organization-logo {
+  margin: 5px;
+  height: 105px;
+  margin-bottom: 15px;
+}
+
+ion-card.organization ion-card-header {
+  height: 180px;
+  padding: 0px;
+}
+
+ion-card.organization ion-card-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+ion-card.organization ion-card-subtitle {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #fff;
+  font-weight: 300;
+  font-size: 14px;
+  text-align: center;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+ion-card.organization ion-button {
+  max-width: fit-content;
+  padding: 3px;
+  text-transform: none;
+}

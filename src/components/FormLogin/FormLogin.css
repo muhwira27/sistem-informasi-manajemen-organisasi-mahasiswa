@@ -1,0 +1,65 @@
+ion-content {
+  --background: #b3c0d0;
+}
+
+.form-login-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-img {
+  height: 150px;
+}
+
+.login-title h5 {
+  text-align: center;
+  font-weight: 600;
+}
+
+.login-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-height: 70vh;
+  margin: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-input {
+  --color: #000;
+  font-size: 16px;
+}
+
+:-webkit-autofill,
+:-webkit-autofill:focus,
+:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset !important;
+  -webkit-text-fill-color: #000 !important;
+  margin: 2px 0;
+}
+
+.login-button {
+  width: 100%;
+}
+
+ion-row {
+  height: 100%;
+}
+
+::-ms-reveal {
+  filter: invert(100%);
+}
+
+ion-toast {
+  --max-width: fit-content;
+}

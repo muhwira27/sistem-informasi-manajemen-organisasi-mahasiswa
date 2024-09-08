@@ -1,0 +1,51 @@
+ion-card.news-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-height: fit-content;
+}
+
+ion-card.news-content ion-breadcrumbs {
+  margin-bottom: 10px;
+}
+
+ion-card.news-content ion-breadcrumbs ion-breadcrumb {
+  font-size: 16px;
+}
+
+ion-card.news-content .news-line {
+  background-color: #cccccc;
+  height: 1px;
+  width: 98%;
+  align-self: center;
+}
+
+.news-title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+ion-card.news-content ion-card-subtitle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 12px;
+}
+
+ion-card.news-content ion-icon {
+  font-size: 18px;
+}
+
+.news-image {
+  width: 40vw;
+  align-self: center;
+}
+
+.news-content {
+  color: #000;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.8;
+  white-space: pre-wrap;
+  color: #4a5463;
+}

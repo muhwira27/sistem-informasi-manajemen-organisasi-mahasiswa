@@ -1,0 +1,77 @@
+@media (min-width: 672px) {
+  .user-img {
+    display: block !important;
+  }
+}
+
+ion-card.biodata ion-input {
+  height: 8vh;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+}
+
+ion-card.biodata ion-grid {
+  width: 100%;
+}
+
+ion-card.biodata .user-img {
+  display: none;
+  height: 160px;
+}
+
+.header-general-info {
+  color: #000;
+  font-weight: 600;
+  font-size: 17px;
+  padding-bottom: 10px !important;
+}
+
+.container-profile-btn {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap: 10px;
+}
+
+.profile-btn {
+  --border-radius: 14px !important;
+  width: 120px;
+  text-transform: none;
+}
+
+.container-change-password {
+  margin: 34px 0 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+}
+
+.header-change-password {
+  color: #000;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.button-change-password {
+  width: max-content;
+  text-transform: none;
+}
+
+.input-email,
+.input-password {
+  margin-bottom: 70px;
+}
+
+@media (min-width: 385px) {
+  .input-email {
+    margin-bottom: 56px;
+  }
+}
+
+@media (min-width: 585px) {
+  .input-email,
+  .input-password {
+    margin-bottom: 38px;
+  }
+}

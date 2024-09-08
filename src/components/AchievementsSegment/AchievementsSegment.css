@@ -1,0 +1,151 @@
+.achievements-segment {
+  width: 100%;
+  height: max-content;
+}
+
+.achievements-segment .list-achievement {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.achievements-segment .achievement-year {
+  --background: #ff4d4d;
+  --color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.ion-accordion-toggle-icon {
+  color: #fff;
+}
+
+.achievements-segment .achievement-year:hover {
+  --color: #e5e5e5;
+}
+
+.achievement-card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+  box-shadow: none;
+}
+
+.achievement-card .achievement-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.achievement-card .achievement-title {
+  font-size: 22px;
+}
+
+.achievement-card .achievement-desc {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.achievement-card .achievement-img {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+}
+
+.achieve-line {
+  background-color: #e0e0e0;
+  height: 2px;
+  width: 100%;
+  align-self: center;
+  margin: 16px 0;
+}
+
+.add-achievement {
+  --border-radius: 6px;
+  width: max-content;
+  min-height: 34px !important;
+  text-transform: none;
+  margin-top: 6px;
+  margin-bottom: 12px;
+}
+
+.achievement-header {
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  gap: 16px;
+}
+
+.actions-btn-achievement {
+  display: flex;
+  font-size: 24px;
+  gap: 16px;
+}
+
+.edit-achievement {
+  font-size: 24px;
+  color: #2ac86b;
+  cursor: pointer;
+}
+
+.delete-achievement {
+  font-size: 24px;
+  color: #e90000;
+  cursor: pointer;
+}
+
+@media (min-width: 440px) {
+  .add-achievement-text {
+    display: block !important;
+  }
+}
+
+.add-achievement-text {
+  display: none;
+  box-shadow: none !important;
+}
+
+@media (min-width: 736px) {
+  .achievement-img {
+    width: 260px !important;
+  }
+}
+
+@media (min-width: 1140px) {
+  .achievement-header {
+    flex-wrap: nowrap;
+  }
+
+  .achievement-card {
+    gap: 20px;
+    /* justify-content: space-between; */
+  }
+
+  .achievement-img {
+    width: 160px !important;
+  }
+
+  .achievement-card .achievement-info {
+    width: 70%;
+  }
+
+  .achievement-card .achievement-desc {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1437px) {
+  .achievement-card {
+    gap: 40px;
+  }
+
+  .achievement-card .achievement-info {
+    width: 80%;
+  }
+
+  .achievement-card .achievement-title {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,35 @@
+.events-segment {
+  width: 100%;
+  padding-right: 30px;
+}
+
+.events-segment .upcoming {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 21px;
+  font-weight: 500;
+  color: #000;
+  margin: 0 0 20px 3px;
+}
+
+.events-segment .upcoming .add-event {
+  --border-radius: 6px;
+  width: max-content;
+  height: 30px !important;
+  text-transform: none;
+  margin-left: 16px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 500px) {
+  .add-event-text {
+    display: block !important;
+  }
+}
+
+.add-event-text {
+  display: none;
+  box-shadow: none !important;
+}
